@@ -1,0 +1,160 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header Styles */
+.container {
+    color: #fff;
+    padding: 50px 0;
+}
+.container h1 {
+    float: left;
+    font-size: 24px;
+    padding: 10px 10px ;
+}
+
+.container nav {
+    float: inline-end;
+    padding: 15px 80px;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.container ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.container ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Hero Section Styles */
+#hero {
+    position: relative;
+    background: url('image/tourism.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    align-items: start;
+
+    justify-content: start;
+    text-align: start;
+    color: #fff;
+}
+
+
+#hero .hero-text {
+    z-index: 1; /* Ensure text is above the background overlay */
+    background: rgba(0, 0, 0, 0); /* Add some transparency to the text box */
+    padding: 100px;
+    border-radius: 20px;
+}
+
+#hero h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    background: #FF5722;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Destinations Section Styles */
+#destinations {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+#destinations h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.destination-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.destination-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.destination-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.destination-item h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+/* Gallery Section Styles */
+#gallery {
+    padding: 60px 0;
+}
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Footer Styles */
+footer {
+    background: #00796B;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
